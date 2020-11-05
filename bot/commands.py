@@ -20,29 +20,29 @@ from bot.get_cfg import get_config
 class Command:
     START = get_config(
         "COMMAND_START",
-        "start@Tg_videocompressbot"
+        "start"
     )
     COMPRESS = get_config(
         "COMMAND_COMPRESS",
-        "compress@Tg_videocompressbot"
+        "compress"
     )
     CANCEL = get_config(
         "COMMAND_CANCEL",
-        "cancel@Tg_videocompressbot"
+        "cancel"
     )
     STATUS = get_config(
         "COMMAND_STATUS",
-        "status@Tg_videocompressbot"
+        "status"
     )
     EXEC = get_config(
         "COMMAND_EXEC",
-        "exec@Tg_videocompressbot"
+        "exec"
     )
     HELP = get_config(
         "COMMAND_HELP",
-        "help@Tg_videocompressbot"
+        "help"
     )
     UPLOAD_LOG_FILE = get_config(
         "COMMAND_UPLOAD_LOG_FILE",
-        "log@Tg_videocompressbot"
+        "log"
     )
