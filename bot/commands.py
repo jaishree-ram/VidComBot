@@ -20,29 +20,29 @@ from bot.get_cfg import get_config
 class Command:
     START = get_config(
         "COMMAND_START",
-        "start@public_usebot"
+        "start"
     )
     COMPRESS = get_config(
         "COMMAND_COMPRESS",
-        "compress@public_usebot"
+        "compress"
     )
     CANCEL = get_config(
         "COMMAND_CANCEL",
-        "cancel@public_usebot"
+        "cancel"
     )
     STATUS = get_config(
         "COMMAND_STATUS",
-        "status@public_usebot"
+        "status"
     )
     EXEC = get_config(
         "COMMAND_EXEC",
-        "exec@public_usebot"
+        "exec"
     )
     HELP = get_config(
         "COMMAND_HELP",
-        "help@public_usebot"
+        "help"
     )
     UPLOAD_LOG_FILE = get_config(
         "COMMAND_UPLOAD_LOG_FILE",
-        "log@public_usebot"
+        "log"
     )
